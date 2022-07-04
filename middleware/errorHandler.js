@@ -1,4 +1,4 @@
-import {CustomErrorHandler} from "../services/customErrorHandler";
+import CustomErrorHandler from "../services/CustomErrorHandler";
 import { ValidationError } from "joi";
 import {DEBUG_MODE} from "../config";
 

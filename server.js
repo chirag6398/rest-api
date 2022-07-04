@@ -4,6 +4,10 @@ import routes from "./routes";
 import errorHandler from "./middleware/errorHandler";
 const app=express();
 
+
+require("./db/conn");
+
+
 app.use("/api",routes);
 
 
